@@ -1,0 +1,57 @@
+/* =========== PC =========== */
+
+@media screen and (min-width: 1024px) {
+}
+
+/* =========== TABLET =========== */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar ul {
+    transform: translateX(-40px);
+  }
+
+  .hero-wrap .hero-image {
+    width: calc(584px * (69 / 100));
+    height: calc(619px * (69 / 100));
+    right: calc((100vw - 786px) / 2);
+  }
+
+  .client .image {
+    flex-wrap: wrap;
+  }
+
+  .client .image a {
+    min-width: calc(200px * (76.8 / 100));
+    min-height: 70px;
+  }
+
+  .client .image a:last-of-type {
+    margin-right: 143px;
+  }
+
+  .client .image a:nth-child(4) {
+    margin-left: 130px;
+  }
+
+  .box-third .seller-type .seller-para {
+    text-align: center;
+  }
+
+  .box-fourth .box-fourth-text {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .box-fourth .box-fourth-text .box-fourth-desc {
+    width: 207px;
+    padding-bottom: 20px;
+  }
+
+  .box-fourth .father-of-box-fourth {
+    
+  }
+}
+/* =========== MOBILE =========== */
+
+@media screen and (max-width: 767px) {
+}
