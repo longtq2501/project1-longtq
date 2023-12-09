@@ -6,8 +6,12 @@
   --primary-color: #0f1b4c;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 html {
-  scroll-behavior:smooth;
   font-size: 62.5%;
 }
 
@@ -312,7 +316,6 @@ a {
 }
 
 .box-fourth .inside-box-fourth .text-section {
-
 }
 
 .box-fourth .box-fourth-title {
@@ -401,7 +404,6 @@ a {
   display: flex;
   gap: 30px;
   justify-content: center;
-
 }
 
 /* =========== FEATURE-02 ============= */
@@ -684,8 +686,8 @@ a {
 }
 
 .html {
-display: -webkit-box;
--webkit-line-clamp: var(--line-camp, 2);
--webkit-box-orient: vertical;
-overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-camp, 2);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
