@@ -71,6 +71,7 @@ a {
   width: 100%;
   height: calc(100vh - 90px);
   background-color: #e6f0ff;
+  justify-content: center;
 }
 /* ======= Navigation bar ========= */
 .navbar {
@@ -117,10 +118,6 @@ a {
   margin-left: 18px;
 }
 /* ======= Content inside Header ========= */
-.hero {
-  display: flex;
-  margin-top: 153px;
-}
 
 .hero .info {
   width: 51%;
